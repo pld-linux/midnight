@@ -5,10 +5,6 @@ Version:	0.9.6
 Release:	2
 License:	GPL
 Group:		Applications/Sound
-Group(de):	Applikationen/Laut
-Group(es):	Aplicaciones/Sonido
-Group(pl):	Aplikacje/D¼wiêk
-Group(pt_BR):	Aplicações/Som
 Source0:	http://midnight.linuxbox.com/%{name}-%{version}.tar.gz
 Patch0:		%{name}-time_h.patch
 Patch1:		%{name}-DESTDIR.patch
