@@ -5,8 +5,9 @@ Version:	0.9.6
 Release:	2
 License:	GPL
 Group:		Applications/Sound
-Source0:	http://midnight.linuxbox.com/%{name}-%{version}.tar.gz
-# Source0-md5:	145c28ed28fe803d748cdfc65759e588
+#Source0:	http://midnight.linuxbox.com/%{name}-%{version}.tar.gz
+Source0:	http://tucowslinux.tiscali.dk/files/x11/media/%{name}-%{version}.tar.gz
+# Source0-md5:	59a3a3a70b60ffa68d513182f05db472
 Patch0:		%{name}-time_h.patch
 Patch1:		%{name}-DESTDIR.patch
 URL:		http://midnight.linuxbox.com/
