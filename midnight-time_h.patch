@@ -1,0 +1,11 @@
+--- lib/MidiPlayer.cc	Tue Jul 11 19:11:35 2000
++++ lib/MidiPlayer.cc.new	Tue Jul 11 19:11:21 2000
+@@ -19,7 +19,7 @@
+ */
+ 
+ #include "MidiPlayer.h"
+-#include <linux/timex.h>
++//#include <linux/timex.h>
+ 
+ void MidiPlayer::setFile(MidiFile *file)
+ {
