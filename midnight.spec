@@ -23,7 +23,7 @@ features a highly configurable karaoke panel, automagical charset
 conversion, midi device selection at runtime, etc.
 
 %description -l pl
-Midnight to odtwarzacz midi z mo¿liwo¶cimi karaoke. Oprócz odtwarzania
+Midnight to odtwarzacz midi z mo¿liwo¶ciami karaoke. Oprócz odtwarzania
 plików midi jak ka¿dy inny odtwarzacz midi, pliki midi z rozszerzeniem
 karaoke (zazwyczaj z rozszerzeniem .kar zamiast .mid) s± automatycznie
 rozpoznawane i teksty s± wy¶wietlane na panelu. Midnight ma wysoko
