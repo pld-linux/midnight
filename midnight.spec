@@ -11,6 +11,8 @@ Source0:	http://tucowslinux.tiscali.dk/files/x11/media/%{name}-%{version}.tar.gz
 Patch0:		%{name}-time_h.patch
 Patch1:		%{name}-DESTDIR.patch
 URL:		http://midnight.linuxbox.com/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	gtk+-devel >= 1.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
