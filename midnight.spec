@@ -29,14 +29,13 @@ conversion, midi device selection at runtime, etc.
 %patch1 -p1
 
 %build
-CXXFLAGS="$RPM_OPT_FLAGS"; export CXXFLAGS
-LDFLAGS="-s"; export LDFLAGS
-./configure --prefix=%{_prefix} --with-gnome
+%configure \
+	--with-gnome
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_bindir}
+
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
 gzip -9nf BUGS NEWS README TODO 
