@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		Applications/Sound
 Source0:	http://midnight.linuxbox.com/%{name}-%{version}.tar.gz
+# Source0-md5:	145c28ed28fe803d748cdfc65759e588
 Patch0:		%{name}-time_h.patch
 Patch1:		%{name}-DESTDIR.patch
 URL:		http://midnight.linuxbox.com/
