@@ -43,7 +43,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf BUGS NEWS README TODO 
+gzip -9nf BUGS NEWS README TODO
 
 %clean
 rm -rf $RPM_BUILD_ROOT
