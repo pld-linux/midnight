@@ -1,0 +1,12 @@
+diff -Nur --exclude *~ midnight-0.9.6/Makefile.in midnight-0.9.6.new/Makefile.in
+--- midnight-0.9.6/Makefile.in	Wed Sep 15 06:53:34 1999
++++ midnight-0.9.6.new/Makefile.in	Thu Jul 13 14:32:09 2000
+@@ -33,7 +33,7 @@
+ 
+ install:
+ 	for i in @BINTARGET@ ; do \
+-	 strip midnight/$$i; $(INSTALL) midnight/$$i @bindir@ ; \
++	 strip midnight/$$i; $(INSTALL) midnight/$$i $(DESTDIR)@bindir@ && \
+ 	 echo $$i installed ! ; done
+ 
+ uninstall:
