@@ -36,6 +36,8 @@ ustawianie urz±dzenia midi itp.
 %patch1 -p1
 
 %build
+%{__aclocal}
+%{__autoconf}
 %configure \
 	--with-gnome
 %{__make}
@@ -43,7 +45,8 @@ ustawianie urz±dzenia midi itp.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
