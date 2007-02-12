@@ -1,5 +1,5 @@
 Summary:	Midi/Karaoke player
-Summary(pl):	Odtwarzacz Midi/Karaoke
+Summary(pl.UTF-8):   Odtwarzacz Midi/Karaoke
 Name:		midnight
 Version:	0.9.6
 Release:	2
@@ -24,13 +24,13 @@ the lyrics are displayed in a visual eye-candy panel. Midnight
 features a highly configurable karaoke panel, automagical charset
 conversion, midi device selection at runtime, etc.
 
-%description -l pl
-Midnight to odtwarzacz midi z mo¿liwo¶ciami karaoke. Oprócz odtwarzania
-plików midi jak ka¿dy inny odtwarzacz midi, pliki midi z rozszerzeniem
-karaoke (zazwyczaj z rozszerzeniem .kar zamiast .mid) s± automatycznie
-rozpoznawane i teksty s± wy¶wietlane na panelu. Midnight ma wysoko
-konfigurowalny panel karaoke, automatyczn± konwersjê zestawów znaków,
-ustawianie urz±dzenia midi itp.
+%description -l pl.UTF-8
+Midnight to odtwarzacz midi z moÅ¼liwoÅ›ciami karaoke. OprÃ³cz odtwarzania
+plikÃ³w midi jak kaÅ¼dy inny odtwarzacz midi, pliki midi z rozszerzeniem
+karaoke (zazwyczaj z rozszerzeniem .kar zamiast .mid) sÄ… automatycznie
+rozpoznawane i teksty sÄ… wyÅ›wietlane na panelu. Midnight ma wysoko
+konfigurowalny panel karaoke, automatycznÄ… konwersjÄ™ zestawÃ³w znakÃ³w,
+ustawianie urzÄ…dzenia midi itp.
 
 %prep
 %setup -q
