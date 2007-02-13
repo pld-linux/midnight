@@ -1,5 +1,5 @@
 Summary:	Midi/Karaoke player
-Summary(pl.UTF-8):   Odtwarzacz Midi/Karaoke
+Summary(pl.UTF-8):	Odtwarzacz Midi/Karaoke
 Name:		midnight
 Version:	0.9.6
 Release:	2
